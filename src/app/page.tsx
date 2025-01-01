@@ -1,4 +1,4 @@
-import NoteCard from '../components/notecard/NoteCard.tsx';
+import NoteCard from '../components/notecard/NoteCard';
 export default function Home() {
   return (
     <>
