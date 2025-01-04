@@ -3,12 +3,14 @@ import React from 'react';
 
 const HomeLink = () => {
   return (
-    <Link
-      href="/"
-      className=" self-end pb-1  text-slate-700  hover:text-white transition duration-30 ease-in-out"
-    >
-      Home
-    </Link>
+    <div className=" flex border-r border-slate-700  pr-2 mx-1 my-2 ">
+      <Link
+        href="/"
+        className=" self-end shadow-sm shadow-slate-900  text-white hover:bg-slate-700 transition duration-30 ease-in-out p-2 rounded-md bg-slate-900"
+      >
+        Home
+      </Link>
+    </div>
   );
 };
 

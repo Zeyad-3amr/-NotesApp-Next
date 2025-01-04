@@ -12,7 +12,7 @@ export default function RootLayout({
       <body>
         <div className="flex flex-col h-screen ">
           <NavList />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow self-center h-[calc(90vh)]">{children}</main>
 
           <Footer />
         </div>
